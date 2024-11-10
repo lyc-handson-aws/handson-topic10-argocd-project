@@ -1,0 +1,12 @@
+commonLabels:
+  yuanchao-handson: topic10
+commonAnnotations:
+  methode: kustomize
+nameSuffix: produit1
+namePrefix: app1-
+
+resources:
+ - ../bases
+
+patchesStrategicMerge:
+ - spec-patch.yaml

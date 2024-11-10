@@ -1,0 +1,11 @@
+apiVersion: app.lyc-handson-aws.com/v1alpha1
+kind: TopicTen
+metadata:
+  name: topicten
+spec:
+  # TODO(user): Add fields here
+  image: busybox
+  replicas: 6
+  cloudwatcharn: yy
+  kmsarn: yy
+  targetarn: yy
