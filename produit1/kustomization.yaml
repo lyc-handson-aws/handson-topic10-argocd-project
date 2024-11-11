@@ -2,6 +2,7 @@ commonLabels:
   yuanchao-handson: topic10
 commonAnnotations:
   methode: kustomize
+  argocd.argoproj.io/sync-options: Replace=true,Force=true
 nameSuffix: -produit1
 namePrefix: app1-
 
