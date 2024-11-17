@@ -7,5 +7,5 @@ spec:
   image: sneal2222/handson-topic10-go:latest
   replicas: 5
   cloudwatcharn: "arn:aws:logs:eu-west-3:654654303557:log-group:topic10-loggroup:*"
-  kmsarn: "arn:aws:kms:eu-west-3:654654303557:key/0dd4d870-0680-4992-a82d-6d049fb80c12"
+  kmsarn: "arn:aws:kms:eu-west-3:654654303557:key/b2b9efe8-8107-46c3-8745-8e3aba9bf6d3"
   targetarn: "arn:aws:dynamodb:eu-west-3:654654303557:table/app1-topic10-dynamotable-service1"
